@@ -1,0 +1,17 @@
+#Ejericio 01: Solicitar al usuario que ingrese su nombre y luego imprimir un mensaje de saludo con el nombre proporcionado
+print("Hola, tu nombre es: "+input("Ingresa tu nombre: "))
+
+#Ejercicio 2: Pedir al usuario que ingrese su edad y luego imprimir un mensaje que diga "Tienes X años" (reemplazando X con la edad ingresada).
+print("Tienes "+ input("Ingresa tu edad: ")+" años")
+
+#Ejercicio 3: Solicitar al usuario que ingrese dos palabras y luego imprimir la concatenación de las dos palabras ingresadas.
+print("Tus palabras ingresadas son: "+ input("Ingresa la primera palabra: ")+ " y " +input("Ingresa la segunda palabra: "))
+
+#Ejercicio 4: Pedir al usuario que ingrese su nombre y su edad. Luego imprimir un mensaje que diga "Hola, [nombre]. Tienes [edad] años".
+print("Hola, " +input("Escriba su nombre: ") +". Tienes " + input("Escriba su edad: ")+ " años")
+
+#Ejercicio 5: Solicitar al usuario que ingrese su nombre y luego imprimir un mensaje de saludo con el nombre proporcionado.
+print("Hola, un gusto saludarte "+ input("Escribe tu nombre: "))
+
+#Ejercicio 6: Solicitar al usuario que ingrese su nombre y una palabra. Luego imprimir un mensaje que diga "Hola, [nombre]. La longitud de la palabra que ingresaste es [longitud]"
+print("Hola", input("Escribe tu nombre:"),"La longitud de la palabra que ingresaste es:", len(input("Escribe una palabra:")))
